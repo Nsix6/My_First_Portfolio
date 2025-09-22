@@ -4,20 +4,106 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
   </head>
   <body>
-    <h1>First header</h1>
-    <p></p>
-    <a href="/tweets.html">Tweet Page</a>
-    <a href="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png">
-      <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo" />
-    </a>
+    <!-- Site Header -->
+    <header>
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="/tweets.html">Tweet Page</a></li>
+          <li>
+            <a href="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png">
+              <img
+                src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png"
+                alt="ALX Logo"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <h2></h2>
-    <p></p>
-    <h3></h3>
-    <p></p>
-    <h4></h4>
-    <p></p>
+    <!-- Main Content -->
+    <main>
+      <section>
+        <h2>About Me</h2>
+        <p>Brief introduction about who I am and what I do.</p>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+
+        <article>
+          <h3>Project One</h3>
+          <p>
+            Description of the first project, its purpose, and technologies
+            used.
+          </p>
+        </article>
+
+        <article>
+          <h3>Project Two</h3>
+          <p>
+            Description of the second project, its purpose, and technologies
+            used.
+          </p>
+        </article>
+
+        <article>
+          <h4>Special Feature</h4>
+          <p>Details about a unique feature or achievement.</p>
+          <table>
+            <caption>
+              Some table
+            </caption>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>John</td>
+                <td>25</td>
+                <td>USA</td>
+              </tr>
+              <tr>
+                <td>Emily</td>
+                <td>28</td>
+                <td>Canada</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>Micheal</td>
+                <td>32</td>
+                <td>Australia</td>
+              </tr>
+              <tr>
+                <td>Sophia</td>
+                <td>21</td>
+                <td>UK</td>
+              </tr>
+            </tfoot>
+          </table>
+        </article>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
   </body>
 </html>
